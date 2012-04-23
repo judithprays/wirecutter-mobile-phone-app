@@ -61,7 +61,7 @@
 .ui-body-a select,
 .ui-body-a textarea,
 .ui-body-a button {
-	font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
 }
 .ui-body-a .ui-link-inherit {
 	color: 	#fff /*{a-body-color}*/;
