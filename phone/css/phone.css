@@ -3,3 +3,8 @@
 	width: 277px;
 	margin: 0 auto;
 }
+
+#homeButton{
+	background-image:url('http://thewirecutter.com/wp-content/uploads/53-house.png');
+	background-repeat: no-repeat; 
+}
