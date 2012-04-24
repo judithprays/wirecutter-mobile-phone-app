@@ -6,15 +6,20 @@
 
 h1{
 	text-align: center;
-	margin-top: -40px;
 	color: red;
-	line-height: 25px;
-
+	line-height: 10px;
+	margin-top: -30px;
 }
 
 h2{
 	text-align: center;
 	line-height: 5px;
+}
+
+#back{
+	margin-left: 20px;
+	z-index: 3;
+	margin-top: 20px;
 }
 
 #nav{
@@ -53,7 +58,7 @@ h2{
 }
 
 #categoryButtons{
-	padding: 20px;
+	padding: 25px;
 }
 
 
