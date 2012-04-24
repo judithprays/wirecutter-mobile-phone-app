@@ -1,7 +1,7 @@
 #headerImage{
-	padding: 10px;
+	margin-top: 20px;
 	width: 40%;
-	margin-left: 27%;
+	margin-left: 30%;
 }
 
 h1{
@@ -79,8 +79,14 @@ p{
 
 #amazonButton{
 	float: left;
-	margin: 15px 15px 0px 0px;
+	margin: 20px 15px 10px 0px;
+	background:  #BC9D54;
+    color: white;
+    font-size: 14px;
+    text-shadow: none;
 }
+
+
 
 .widePic{
 	width: 92%;
