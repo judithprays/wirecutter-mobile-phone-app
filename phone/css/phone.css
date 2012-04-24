@@ -16,6 +16,15 @@ h2{
 	line-height: 5px;
 }
 
+h3{
+	line-height: -5px;
+}
+
+p{
+	width: 92%;
+
+}
+
 #back{
 	margin-left: 20px;
 	z-index: 3;
@@ -46,6 +55,31 @@ h2{
 
 #productList li .widePic{
 	width: 92%;
+}
+
+/*PRODUCT DETAIL PAGE*/
+
+#specs{
+	background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #CCCCCC;
+    width: 130px;
+    float: left;
+    padding-left: 10px ;
+    margin: 15px 20px 15px 0px;
+}
+
+#specs p{
+	line-height: 0px;
+}
+
+#productContainer{
+	margin-left: 25px;
+}
+
+#amazonButton{
+	float: left;
+	margin: 15px 15px 0px 0px;
 }
 
 .widePic{
