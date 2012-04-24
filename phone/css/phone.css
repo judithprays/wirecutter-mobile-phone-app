@@ -1,7 +1,20 @@
 #headerImage{
 	padding: 10px;
-	width: 277px;
-	margin-left: 25%;
+	width: 40%;
+	margin-left: 27%;
+}
+
+h1{
+	text-align: center;
+	margin-top: -40px;
+	color: red;
+	line-height: 25px;
+
+}
+
+h2{
+	text-align: center;
+	line-height: 5px;
 }
 
 #nav{
@@ -10,12 +23,28 @@
 
 #productList {
 	list-style: none;
-	width: 580px;
 	overflow: hidden;
 }
 
-#productList li{
+.imageShadow{
+	border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #CCCCCC;
+}
+
+#productList li img{
+	width: 45.5%;
 	float: left;
+	margin: 5px;
+	border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #CCCCCC;
+} 
+
+#productList li .widePic{
+	width: 92%;
+}
+
+.widePic{
+	width: 92%;
 }
 
 .categoryButton{
@@ -23,8 +52,13 @@
 	background-position: 10% 50%; 
 }
 
+#categoryButtons{
+	padding: 20px;
+}
+
+
 #categoryButtons a{
-		padding-left: 25px;
+	padding-left: 30px;
 }
 
 #homeButton{
