@@ -1,8 +1,19 @@
 #headerImage{
 	padding: 10px;
 	width: 277px;
-	margin: 0 auto;
+	margin-left: 25%;
 }
+
+#productList {
+	list-style: none;
+	width: 600px;
+	overflow: hidden;
+}
+
+#productList li{
+	float: left;
+}
+
 
 
 .categoryButton{
