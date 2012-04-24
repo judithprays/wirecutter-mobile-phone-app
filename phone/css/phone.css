@@ -4,9 +4,13 @@
 	margin-left: 25%;
 }
 
+#nav{
+	background-color= #f1ebd8;
+}
+
 #productList {
 	list-style: none;
-	width: 600px;
+	width: 580px;
 	overflow: hidden;
 }
 
@@ -14,10 +18,13 @@
 	float: left;
 }
 
-
-
 .categoryButton{
 	background-repeat: no-repeat; 
+	background-position: 10% 50%; 
+}
+
+#categoryButtons a{
+		padding-left: 25px;
 }
 
 #homeButton{

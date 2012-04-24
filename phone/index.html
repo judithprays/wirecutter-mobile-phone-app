@@ -19,7 +19,7 @@
 
 	<div data-role="content">
 	<div data-role="navbar">
-	<ul>
+	<ul id="nav">
 		<li><a href="#new" class="ui-btn-active">New</a></li>
 		<li><a href="#cat">Categories</a></li>
 		<li><a href="#pop">Popular</a></li>
@@ -29,7 +29,7 @@
 	</div><!-- /navbar -->
 
 	<ul id="productList">
-		<li><a href="#projector"><img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" height="272" width="590" class="widePic"/> </a></li>
+		<li><a href="#projector"><img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" height="272" width="580" class="widePic"/> </a></li>
 		<li><a href="#music"><img src="http://thewirecutter.com/wp-content/uploads/jamboxhandred-435x500.jpg" alt="music" height="250" width="300" /> </a></li>
 		<li><a href="#headphones"><img src="http://thewirecutter.com/wp-content/uploads/VANITY500-478x500.jpg" alt="headphones" height="250" width="240" /> </a></li>
 	</ul>
@@ -56,27 +56,27 @@
 
 	</ul>
 	</div><!-- /navbar -->
-
-		<a href="#home" data-role="button" id="homeButton" class="categoryButton">Home</a> 
-		<a href="#tvs" data-role="button" id="tvsButton"  class="categoryButton">TVs</a> 
-		<a href="#mobileExtras" data-role="button" id="mobileExtrasButton"  class="categoryButton">Mobile Extras</a>
-		<a href="#storage" data-role="button" id="storageButton"  class="categoryButton">Storage</a>
-		<a href="#bodies" data-role="button" id="bodiesButton"  class="categoryButton">Bodies</a>		
-		<a href="#cameras" data-role="button" id="camerasButton"  class="categoryButton">Cameras</a>
-		<a href="#laptops" data-role="button" id="laptopsButton"  class="categoryButton">Laptops</a>
-		<a href="#headphones" data-role="button" id="headphonesButton"  class="categoryButton">Headphones</a>
-		<a href="#smartphones" data-role="button" id="smartphonesButton"  class="categoryButton">Smartphones</a>
-		<a href="#theaterAudio" data-role="button" id="theaterAudioButton"  class="categoryButton">Theater Audio</a>
-		<a href="#theaterExtras" data-role="button" id="theaterExtrasButton"  class="categoryButton">Theater Extras</a>
-		<a href="#projectors" data-role="button" id="projectorsButton"  class="categoryButton">Projectors</a>
-		<a href="#homeMusic" data-role="button" id="homeMusicButton"  class="categoryButton">Home Music</a>
-		<a href="#computerETC" data-role="button" id="computerETCButton"  class="categoryButton">Computers, Etc</a>
-		<a href="#networking" data-role="button" id="networkingButton"  class="categoryButton">Networking</a>
-		<a href="#printers" data-role="button" id="printersButton"  class="categoryButton">Printers</a>
-		<a href="#tablets" data-role="button" id="tabletsButton"  class="categoryButton">Tablets</a>
-		<a href="#carStuff" data-role="button" id="carStuffButton"  class="categoryButton">Car Stuff</a>
-		<a href="#cables" data-role="button" id="cablesButton"  class="categoryButton">Cables</a>
-
+<div id="categoryButtons">
+		<a href="#home" data-role="button" id="homeButton" class="categoryButton" data-inline="true">Home</a> 
+		<a href="#tvs" data-role="button" id="tvsButton"  class="categoryButton" data-inline="true">TVs</a> 
+		<a href="#mobileExtras" data-role="button" id="mobileExtrasButton"  class="categoryButton" data-inline="true">Mobile Extras</a>
+		<a href="#storage" data-role="button" id="storageButton"  class="categoryButton" data-inline="true">Storage</a>
+		<a href="#bodies" data-role="button" id="bodiesButton"  class="categoryButton" data-inline="true">Bodies</a>		
+		<a href="#cameras" data-role="button" id="camerasButton"  class="categoryButton" data-inline="true">Cameras</a>
+		<a href="#laptops" data-role="button" id="laptopsButton"  class="categoryButton" data-inline="true">Laptops</a>
+		<a href="#headphones" data-role="button" id="headphonesButton"  class="categoryButton" data-inline="true">Headphones</a>
+		<a href="#smartphones" data-role="button" id="smartphonesButton"  class="categoryButton" data-inline="true">Smartphones</a>
+		<a href="#theaterAudio" data-role="button" id="theaterAudioButton"  class="categoryButton" data-inline="true">Theater Audio</a>
+		<a href="#theaterExtras" data-role="button" id="theaterExtrasButton"  class="categoryButton" data-inline="true">Theater Extras</a>
+		<a href="#projectors" data-role="button" id="projectorsButton"  class="categoryButton" data-inline="true">Projectors</a>
+		<a href="#homeMusic" data-role="button" id="homeMusicButton"  class="categoryButton" data-inline="true">Home Music</a>
+		<a href="#computerETC" data-role="button" id="computerETCButton"  class="categoryButton" data-inline="true">Computers, Etc</a>
+		<a href="#networking" data-role="button" id="networkingButton"  class="categoryButton" data-inline="true">Networking</a>
+		<a href="#printers" data-role="button" id="printersButton"  class="categoryButton" data-inline="true">Printers</a>
+		<a href="#tablets" data-role="button" id="tabletsButton"  class="categoryButton" data-inline="true">Tablets</a>
+		<a href="#carStuff" data-role="button" id="carStuffButton"  class="categoryButton" data-inline="true">Car Stuff</a>
+		<a href="#cables" data-role="button" id="cablesButton"  class="categoryButton" data-inline="true">Cables</a>
+</div>
 	</div> <!-- /content -->
 
 	<div data-role="footer" data-position="fixed">
@@ -153,7 +153,7 @@
 		<li><a href="#new">New</a></li>
 		<li><a href="#cat">Categories</a></li>
 		<li><a href="#pop">Popular</a></li>
-		<li><a href="shuffle">Shuffle</a></li>
+		<li><a href="#shuffle">Shuffle</a></li>
 
 	</ul>
 	</div><!-- /navbar -->
