@@ -25,6 +25,15 @@ p{
 
 }
 
+#logo{
+		width: 274px;
+		background-image:url('http://thewirecutter.com/wp-content/themes/thewirecutter2/img/logo.png');
+		text-indent: -9999em;
+		overflow: hidden;
+		height: 60px;
+	background-repeat: no-repeat; 
+}
+
 #back{
 	margin-left: 20px;
 	z-index: 3;
