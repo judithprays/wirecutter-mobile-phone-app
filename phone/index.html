@@ -4,43 +4,43 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Wirecutter</title>
-	<link rel="stylesheet"  href="css/jquery.mobile-1.1.0.css" />
+	<link rel="stylesheet"  href="css/jquery.mobile.structure-1.1.0.css" />
+	<link rel="stylesheet"  href="css/wirecutter.css" />
 	<link rel="stylesheet"  href="css/phone.css" />
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.mobile-1.1.0.js"></script>
 </head>
 <body>
-<div id="new" data-role="page" id="page-home"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!NEW -->
+<div id="new" data-role="page" id="page-home" data-theme="a"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!NEW -->
 	<div data-role="header">
 		<h1 id="logo">Wirecutter</h1>
 	</div>
 
 	<div data-role="content">
-	<div data-role="navbar">
-	<ul id="nav">
-		<li><a href="#new" class="ui-btn-active">New</a></li>
-		<li><a href="#cat">Categories</a></li>
-		<li><a href="#pop">Popular</a></li>
-		<li><a href="#product">Shuffle</a></li>
 
-	</ul>
-	</div><!-- /navbar -->
-
-	<ul id="productList">
-		<li><a href="#product"><img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" class="widePic"/> </a></li>
-		<li><a href="#music"><img src="http://thewirecutter.com/wp-content/uploads/jamboxhandred-435x500.jpg" alt="music" /> </a></li>
-		<li><a href="#headphones"><img src="http://thewirecutter.com/wp-content/uploads/VANITY500-478x500.jpg" alt="headphones" /> </a></li>
-	</ul>
-	</div> <!-- /content -->
-
-	<div data-role="footer" >
+		<ul id="productList">
+			<li><a href="#product"><img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" class="widePic"/> </a></li>
+			<li><a href="#music"><img src="http://thewirecutter.com/wp-content/uploads/jamboxhandred-435x500.jpg" alt="music" /> </a></li>
+			<li><a href="#headphones"><img src="http://thewirecutter.com/wp-content/uploads/VANITY500-478x500.jpg" alt="headphones" /> </a></li>
+		</ul>
 	</div>
+
+		<div data-role="footer" data-position="fixed" >
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#new">New</a></li>
+					<li><a href="#cat" class="ui-btn-active">Categories</a></li>
+					<li><a href="#pop">Popular</a></li>
+					<li><a href="#product">Shuffle</a></li>
+
+				</ul>
+			</div><!-- /navbar -->
+		</div>
 </div>
 
 <div id = "cat" data-role="page" id="page-home"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!CATEGORIES -->
 	<div data-role="header" >
-		<img src="http://thewirecutter.com/wp-content/themes/thewirecutter2/img/logo.png" alt="Smiley face" id="headerImage"/> 
-
+		<h1 id="logo">Wirecutter</h1>
 	</div>
 
 	<div data-role="content">
@@ -53,7 +53,7 @@
 
 	</ul>
 	</div><!-- /navbar -->
-<div id="categoryButtons"> <center>
+<div id="categoryButtons"> 
 		<a href="#home" data-role="button" id="homeButton" class="categoryButton" data-inline="true">Home</a> 
 		<a href="#tvs" data-role="button" id="tvsButton"  class="categoryButton" data-inline="true">TVs</a> 
 		<a href="#mobileExtras" data-role="button" id="mobileExtrasButton"  class="categoryButton" data-inline="true">Mobile Extras</a>
@@ -73,7 +73,7 @@
 		<a href="#tablets" data-role="button" id="tabletsButton"  class="categoryButton" data-inline="true">Tablets</a>
 		<a href="#carStuff" data-role="button" id="carStuffButton"  class="categoryButton" data-inline="true">Car Stuff</a>
 		<a href="#cables" data-role="button" id="cablesButton"  class="categoryButton" data-inline="true">Cables</a>
-</center></div>
+</div>
 	</div> <!-- /content -->
 
 	<div data-role="footer" >
@@ -83,8 +83,7 @@
 
 <div id = "pop" data-role="page" id="page-home"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!POPULAR -->
 	<div data-role="header" >
-		<img src="http://thewirecutter.com/wp-content/themes/thewirecutter2/img/logo.png" alt="Smiley face" id="headerImage"/> 
-
+		<h1 id="logo">Wirecutter</h1>
 	</div>
 
 	<div data-role="content">
@@ -141,9 +140,7 @@
 
 <div id = "product" data-role="page" id="page-home" data-add-back-btn="true"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!PROJECTOR -->
 	<div data-role="header" >
-		<img src="http://thewirecutter.com/wp-content/themes/thewirecutter2/img/logo.png" alt="Smiley face" id="headerImage"/>
-
-
+		<h1 id="logo">Wirecutter</h1>
 	</div>
 
 	<div data-role="content">

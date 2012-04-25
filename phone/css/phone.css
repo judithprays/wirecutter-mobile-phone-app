@@ -1,3 +1,7 @@
+html {
+	overflow-y: scroll;
+}
+
 #headerImage{
 	margin-top: 20px;
 	width: 40%;
@@ -40,8 +44,12 @@ p{
 	margin-top: 20px;
 }
 
-#nav{
-	background-color= #f1ebd8;
+#nav {
+	background-color: #f1ebd8;
+}
+
+#nav li:first a {
+	border-radius: 10px;
 }
 
 #productList {
@@ -108,6 +116,7 @@ p{
 
 #categoryButtons{
 	padding: 25px;
+	text-align: center;
 }
 
 
