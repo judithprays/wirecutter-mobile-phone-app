@@ -51,7 +51,7 @@
 .ui-bar-a select,
 .ui-bar-a textarea,
 .ui-bar-a button {
-	 font-family: Helvetica, Arial, sans-serif  /*{global-font-family}*/;
+		font-family: 'Cantarell', sans-serif;
 }
 .ui-body-a,
 .ui-overlay-a {
@@ -151,8 +151,8 @@
 .ui-btn-up-a,
 .ui-btn-hover-a,
 .ui-btn-down-a {
-	 font-family: Helvetica, Arial, sans-serif  /*{global-font-family}*/;
-	text-decoration: none;
+	 	font-family: 'Cantarell', sans-serif;
+	 	text-decoration: none;
 }
 
 /* B
@@ -473,7 +473,8 @@ a.ui-link-inherit {
 	background-image:     -ms-linear-gradient( #FF7057 /*{global-active-background-start}*/, #90352a /*{global-active-background-end}*/); /* IE10 */
 	background-image:      -o-linear-gradient( #FF7057 /*{global-active-background-start}*/, #90352a /*{global-active-background-end}*/); /* Opera 11.10+ */
 	background-image:         linear-gradient( #FF7057 /*{global-active-background-start}*/, #90352a /*{global-active-background-end}*/);
-	 font-family: Helvetica, Arial, sans-serif  /*{global-font-family}*/;
+	font-family: 'Cantarell', sans-serif;
+
 }
 .ui-btn-active a.ui-link-inherit {
 	color: #ffffff /*{global-active-color}*/;

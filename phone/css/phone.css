@@ -2,6 +2,7 @@ html {
 	overflow-y: scroll;
 }
 
+
 #headerImage{
 	margin-top: 20px;
 	width: 40%;
@@ -10,24 +11,23 @@ html {
 
 h1{
 	text-align: center;
-	color: red;
-	line-height: 10px;
-	margin-top: -30px;
+	color: ##503D15;
+	line-height: 8px;
+	font-family: 'Cantarell', sans-serif;
+	font-size: 25px;
+	font-weight: normal;
 }
 
 h2{
 	text-align: center;
-	line-height: 5px;
-}
-
-h3{
-	line-height: -5px;
-}
-
-p{
-	width: 92%;
+	line-height: 8px;
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	color: red;
 
 }
+
 
 #logo{
 		width: 274px;
@@ -63,7 +63,7 @@ p{
 }
 
 #productList li img{
-	width: 45.5%;
+	width: 42%;
 	float: left;
 	margin: 5px;
 	border-radius: 5px 5px 5px 5px;
@@ -80,7 +80,7 @@ p{
 	background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0 0 5px #CCCCCC;
-    width: 130px;
+    width: 115px;
     float: left;
     padding-left: 10px ;
     margin: 15px 20px 15px 0px;
@@ -88,6 +88,32 @@ p{
 
 #specs p{
 	line-height: 0px;
+}
+
+
+h3{
+	line-height: -5px;
+}
+
+h4{
+	line-height: -5px;
+
+}
+
+p{
+	width: 92%;
+	font: sans-serif;
+	font-size: 14px;
+	padding: 1px;
+
+}
+
+.bold{
+		font-weight: bold;
+}
+
+.specHeadline{
+	font-size: 18px;
 }
 
 #productContainer{
