@@ -16,7 +16,7 @@
 	border: 1px solid #ebddb2 /*{a-bar-border}*/;
 	background: #f1ebd8 /*{a-bar-background-color}*/;
 	color: #503D15 /*{a-bar-color}*/;
-	font-weight: bold;
+	font-weight: normal;
 	text-shadow:  0  /*{a-bar-shadow-x}*/  1px  /*{a-bar-shadow-y}*/  1px  /*{a-bar-shadow-radius}*/  	#ffffff  /*{a-bar-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #f1ebd8 /*{a-bar-background-start}*/), to( #f1ebd8 /*{a-bar-background-end}*/)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient( #f1ebd8 /*{a-bar-background-start}*/, #f1ebd8 /*{a-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
@@ -135,7 +135,7 @@
 .ui-btn-down-a {
 	border: 1px solid  		#bbbbbb  /*{a-bdown-border}*/;
 	background:  			#d6d6d6  /*{a-bdown-background-color}*/;
-	font-weight: bold;
+	font-weight: normal;
 	color: #2F3E46 /*{a-bdown-color}*/;
 	text-shadow:  0  /*{a-bdown-shadow-x}*/  1px  /*{a-bdown-shadow-y}*/  0  /*{a-bdown-shadow-radius}*/  #ffffff  /*{a-bdown-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(  #d0d0d0  /*{a-bdown-background-start}*/), to(  #dfdfdf  /*{a-bdown-background-end}*/)); /* Saf4+, Chrome */
@@ -462,7 +462,7 @@ a.ui-link-inherit {
 .ui-btn-active {
 	border: 1px solid #503D15 /*{global-active-border}*/;
 	background: #DF5341 /*{global-active-background-color}*/;
-	font-weight: bold;
+	font-weight: normal;
 	color: #ffffff /*{global-active-color}*/;
 	cursor: pointer;
 	text-shadow:  0  /*{global-active-shadow-x}*/  1px  /*{global-active-shadow-y}*/  1px  /*{global-active-shadow-radius}*/ #346993 /*{global-active-shadow-color}*/;
@@ -474,6 +474,7 @@ a.ui-link-inherit {
 	background-image:      -o-linear-gradient( #FF7057 /*{global-active-background-start}*/, #90352a /*{global-active-background-end}*/); /* Opera 11.10+ */
 	background-image:         linear-gradient( #FF7057 /*{global-active-background-start}*/, #90352a /*{global-active-background-end}*/);
 	font-family: 'Cantarell', sans-serif;
+	font-size: 12px;
 
 }
 .ui-btn-active a.ui-link-inherit {
