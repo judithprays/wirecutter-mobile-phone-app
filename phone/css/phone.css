@@ -1,7 +1,8 @@
+/*
 html {
 	overflow-y: scroll;
 }
-
+*/
 
 #headerImage{
 	margin-top: 20px;
@@ -29,13 +30,14 @@ h2{
 }
 
 
-#logo{
-		width: 274px;
-		background-image:url('http://thewirecutter.com/wp-content/themes/thewirecutter2/img/logo.png');
-		text-indent: -9999em;
-		overflow: hidden;
-		height: 60px;
+#logo {
+	background-image:url('http://thewirecutter.com/wp-content/themes/thewirecutter2/img/logo.png');
+	background-size:auto 30px;
 	background-repeat: no-repeat; 
+	text-indent: -9999em;
+	overflow: hidden;
+	height: 30px;
+	width: 137px;
 }
 
 #back{
@@ -52,6 +54,10 @@ h2{
 	border-radius: 10px;
 }
 
+#new .ui-grid-a img {
+	width: 100%;
+	max-width: 200px;
+}
 #productList {
 	list-style: none;
 	overflow: hidden;

@@ -12,38 +12,49 @@
 	<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div id="new" data-role="page" id="page-home" data-theme="a"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!NEW -->
-	<div data-role="header">
+<div data-role="page" id="new" data-theme="a"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!NEW -->
+	<div data-role="header" data-position="fixed">
 		<h1 id="logo">Wirecutter</h1>
-		<a href="#search" data-role="button" id="searchButton" data-inline="true" data-icon="search">SEARCH</a>
-
+		<a href="#search" data-role="button" id="searchButton" class="ui-btn-right" data-iconpos="notext" data-icon="search">SEARCH</a>
 	</div>
 
 	<div data-role="content">
+		<div class="ui-grid">
+			<div class="ui-block">
+				<a href="#product"><img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" /></a>
+			</div>
+		</div><!-- /grid-a -->
+		<div class="ui-grid-a">
+			<div class="ui-block-a">
+				<a href="#headphones"><img src="http://thewirecutter.com/wp-content/uploads/VANITY500-478x500.jpg" alt="headphones" /> </a>
+			</div>
+			<div class="ui-block-b"><a href="#headphones"><img src="http://thewirecutter.com/wp-content/uploads/VANITY500-478x500.jpg" alt="headphones" /> </a></div>
+		</div><!-- /grid-a -->
 
-		<ul id="productList">
+		<!-- <ul id="productList">
 			<li><a href="#product"><img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" class="widePic"/> </a></li>
 			<li><a href="#music"><img src="http://thewirecutter.com/wp-content/uploads/jamboxhandred-435x500.jpg" alt="music" /> </a></li>
 			<li><a href="#headphones"><img src="http://thewirecutter.com/wp-content/uploads/VANITY500-478x500.jpg" alt="headphones" /> </a></li>
-		</ul>
+		</ul> -->
 	</div>
 
-		<div data-role="footer" data-position="fixed" data-role="navbar">
-			<div data-role="navbar">
-				<ul>
-					<li><a href="#new" class="ui-btn-active">NEW</a></li>
-					<li><a href="#cat">CATEGORIES</a></li>
-					<li><a href="#pop">POPULAR</a></li>
-					<li><a href="#product">SHUFFLE</a></li>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="#new" data-icon="grid" class="ui-btn-active">NEW</a></li>
+				<li><a href="#cat" data-icon="grid">CATEGORIES</a></li>
+				<li><a href="#pop" data-icon="grid">POPULAR</a></li>
+				<li><a href="#product" data-icon="grid">SHUFFLE</a></li>
 
-				</ul>
-			</div><!-- /navbar -->
-		</div>
+			</ul>
+		</div><!-- /navbar -->
+	</div>
 </div>
 
-<div id = "cat" data-role="page" id="page-home"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!CATEGORIES -->
+<div id="cat" data-role="page"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!CATEGORIES -->
 	<div data-role="header" >
 		<h1 id="logo">Wirecutter</h1>
+		<a href="#search" data-role="button" id="searchButton" class="ui-btn-right" data-iconpos="notext" data-icon="search">SEARCH</a>
 	</div>
 
 	<div data-role="content">
@@ -71,9 +82,9 @@
 	</div> <!-- /content -->
 
 	<div data-role="footer" data-position="fixed" >
-			<div data-role="navbar">
+			<div data-role="navbar" data-iconpos="top">
 				<ul>
-					<li><a href="#new">NEW</a></li>
+					<li><a href="#new" class="home">NEW</a></li>
 					<li><a href="#cat" class="ui-btn-active">CATEGORIES</a></li>
 					<li><a href="#pop">POPULAR</a></li>
 					<li><a href="#product">SHUFFLE</a></li>
@@ -84,9 +95,10 @@
 </div>
 
 
-<div id = "pop" data-role="page" id="page-home"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!POPULAR -->
+<div id="pop" data-role="page"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!POPULAR -->
 	<div data-role="header" >
 		<h1 id="logo">Wirecutter</h1>
+		<a href="#search" data-role="button" id="searchButton" class="ui-btn-right" data-iconpos="notext" data-icon="search">SEARCH</a>
 	</div>
 
 	<div data-role="content">
@@ -113,7 +125,7 @@
 		</div>
 </div>
 
-<div id = "shuffle" data-role="page" id="page-home"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!SHUFFLE -->
+<div id="shuffle" data-role="page"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!SHUFFLE -->
 
 	<!!!!!!!!!!!!!!!!!!!!!!!!!!!!Some sort of situation where the products are in an area and then
 	displayed here at random. can't be that hard, right? -->
@@ -142,12 +154,16 @@
 
 <!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!PRODUCTS -->
 
-<div id = "product" data-role="page" id="page-home" data-add-back-btn="true"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!PROJECTOR -->
+<div id="product" data-role="page" data-add-back-btn="true"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!PROJECTOR -->
 	<div data-role="header" >
 		<h1 id="logo">Wirecutter</h1>
+		<a href="#search" data-role="button" id="searchButton" class="ui-btn-right" data-iconpos="notext" data-icon="search">SEARCH</a>
 	</div>
 
 	<div data-role="content">
+
+
+
 
 		<h1> A GREAT PROJECTOR </h1>
 		<h2> Panasonic PT-AE7000U </h2>
@@ -198,9 +214,10 @@
 
 
 
-<div id="search" data-role="page" id="search"  data-add-back-btn="true" data-theme="a"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!SEARCH -->
+<div id="search" data-role="page" data-add-back-btn="true" data-theme="a"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!SEARCH -->
 	<div data-role="header">
 		<h1 id="logo">Wirecutter</h1>
+		<a href="#search" data-role="button" id="searchButton" class="ui-btn-right" data-iconpos="notext" data-icon="search">SEARCH</a>
 
 	</div>
 
