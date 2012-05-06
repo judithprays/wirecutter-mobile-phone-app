@@ -13,10 +13,10 @@ html {
 h1{
 	text-align: center;
 	color: ##503D15;
-	line-height: 8px;
 	font-family: 'Cantarell', sans-serif;
 	font-size: 25px;
 	font-weight: normal;
+	line-height: 22px;
 }
 
 h2{
@@ -40,6 +40,10 @@ h2{
 	width: 137px;
 }
 
+.homeButton{
+	text-align: center;
+}
+
 #new .ui-grid img {
 	width: 100%;
 	max-width: 400px;
@@ -50,29 +54,14 @@ h2{
 	max-width: 200px;
 }
 
-#productList {
-	list-style: none;
-	overflow: hidden;
-}
-
 .imageShadow{
 	border-radius: 5px 5px 5px 5px;
     box-shadow: 0 0 5px #CCCCCC;
 }
 
-#productList li img{
-	width: 42%;
-	float: left;
-	margin: 5px;
-	border-radius: 5px 5px 5px 5px;
-    box-shadow: 0 0 5px #CCCCCC;
-} 
 
-#productList li .widePic{
-	width: 92%;
-}
 
-/*PRODUCT DETAIL PAGE*/
+/****************PRODUCT DETAIL PAGE********************/
 
 #specs{
 	background-color: rgba(255, 255, 255, 0.5);
@@ -127,11 +116,13 @@ p{
     text-shadow: none;
 }
 
-
-
 .widePic{
 	width: 92%;
 }
+
+
+/****************CATEGORY BUTTON STYLING********************/
+
 
 .categoryButton{
 	background-repeat: no-repeat; 
