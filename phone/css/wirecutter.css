@@ -103,7 +103,7 @@
 	border: 1px solid #f5eed6 /*{a-bup-border}*/;
 	background: #f8f5ea /*{a-bup-background-color}*/;
 	font-weight: bold;
-	color: #264f73 /*{a-bup-color}*/;
+	color: #6D8AA4 /*{a-bup-color}*/;
 	text-shadow:  0  /*{a-bup-shadow-x}*/  1px  /*{a-bup-shadow-y}*/  0  /*{a-bup-shadow-radius}*/ #ffffff /*{a-bup-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #FFFFf5 /*{a-bup-background-start}*/), to( #ebe8de /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient( #FFFFf5 /*{a-bup-background-start}*/, #ebe8de /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */

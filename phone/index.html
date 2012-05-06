@@ -30,7 +30,7 @@
 		<a href="#new" data-role="button" data-icon="star"  class="homeButton" data-inline="true">NEW</a>
 
 		<div data-role="collapsible" id="about">
-			<h5> ABOUT WIRECUTTER </h5>
+			<h5> HOW TO USE WIRECUTTER </h5>
 				<p>Gadget shopping can be difficult at times. But I think I can help. </p>
 
 				<p> Pick the category of gadgets that you want to shop in, and then read the descriptions of our handful of choices. Each one is special, but I bet there's one that fits you. We've gone with high end, low end, and what we believe is just right.</p>
@@ -53,7 +53,7 @@
 
 
 
-<div data-role="page" id="new" data-theme="a"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!NEW -->
+<div data-role="page" id="new" data-theme="a" data-add-back-btn="true"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!NEW -->
 	<div data-role="header" data-position="fixed">
 		<h1 id="logo">Wirecutter</h1>
 		<a href="#search" data-role="button" id="searchButton" class="ui-btn-right" data-iconpos="notext" data-icon="search">SEARCH</a>
@@ -93,15 +93,15 @@
 	<div data-role="footer" data-position="fixed">
 		<div data-role="navbar" >
 			<ul>
-				<li><a href="#home" data-icon="home" class="ui-btn-active">HOME</a></li>
+				<li><a href="#home" data-icon="home">HOME</a></li>
 				<li><a href="#cat" data-icon="grid">CATEGORIES</a></li>
-				<li><a href="#new" data-icon="star">NEW</a></li>
+				<li><a href="#new" data-icon="star" class="ui-btn-active">NEW</a></li>
 			</ul>
 		</div><!-- /navbar -->
 	</div>
 </div>
 
-<div id="cat" data-role="page"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!CATEGORIES -->
+<div id="cat" data-role="page" data-add-back-btn="true"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!CATEGORIES -->
 	<div data-role="header" >
 		<h1 id="logo">Wirecutter</h1>
 		<a href="#search" data-role="button" id="searchButton" class="ui-btn-right" data-iconpos="notext" data-icon="search">SEARCH</a>
