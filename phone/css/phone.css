@@ -27,7 +27,7 @@ h2{
 h5{
 	color: #8D8B86;
 	font-family: Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 10px;
 	margin: 3px 0 10px 0;
 	text-align: center;
@@ -56,14 +56,13 @@ h5{
 
 #new .ui-grid-a img {
 	width: 100%;
-	max-width: 160px;
+	max-width: 140px;
 }
 
 .imageShadow{
 	border-radius: 5px 5px 5px 5px;
     box-shadow: 0 0 5px #CCCCCC;
 }
-
 
 #home{
 	text-align: center;
@@ -229,3 +228,25 @@ p{
 #cablesButton{
 	background-image:url('http://thewirecutter.com/wp-content/uploads/cables.png');
 }	
+
+
+.searchImageMargin{
+	margin-left: 7px;
+}
+#search ul{
+		margin-bottom: 10px;
+}
+
+#projector1{
+		margin-top: 22px;
+}
+
+#projector2{
+	margin-top: 10px;
+}
+
+#projector3{
+	margin-top: 20px;
+}
+
+
