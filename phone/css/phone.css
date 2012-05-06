@@ -40,24 +40,16 @@ h2{
 	width: 137px;
 }
 
-#back{
-	margin-left: 20px;
-	z-index: 3;
-	margin-top: 20px;
-}
-
-#nav {
-	background-color: #f1ebd8;
-}
-
-#nav li:first a {
-	border-radius: 10px;
+#new .ui-grid img {
+	width: 100%;
+	max-width: 400px;
 }
 
 #new .ui-grid-a img {
 	width: 100%;
 	max-width: 200px;
 }
+
 #productList {
 	list-style: none;
 	overflow: hidden;
