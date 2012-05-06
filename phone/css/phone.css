@@ -25,15 +25,19 @@ h2{
 }
 
 h5{
-	color: #503D15;
+	color: #8D8B86;
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 10px;
-	margin: 5px;
-	margin-bottom: 10px;
+	margin: 3px 0 10px 0;
 	text-align: center;
 }
 
+#search h5{
+		line-height: 30px;
+		margin: 10px;
+		margin-bottom: 20px;
+}
 
 #logo {
 	background-image:url('http://thewirecutter.com/wp-content/themes/thewirecutter2/img/logo.png');
@@ -47,7 +51,7 @@ h5{
 
 #new .ui-grid img {
 	width: 100%;
-	max-width: 400px;
+	max-width: 360px;
 }
 
 #new .ui-grid-a img {
@@ -63,6 +67,10 @@ h5{
 
 #home{
 	text-align: center;
+}
+
+#home p{
+	text-align: left;
 }
 
 

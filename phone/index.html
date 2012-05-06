@@ -23,7 +23,7 @@
 	<div data-role="content">
 		<h1> A LIST OF GREAT TECHNOLOGY </h1>
 		<a href="#product"><img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" class="widePic imageShadow"/> </a>
-		<h2> Featured Product: A Great Projector</h2>
+		<h5> FEATURED PRODUCT: A GREAT PROJECTOR</h5>
 
 		<a href="#cat" data-role="button" data-icon="grid" class="homeButton" data-inline="true">CATEGORIES</a>
 		
@@ -167,6 +167,8 @@
 			<div class="ui-block-a">
 				<div id="specs">
 					<p class="bold specHeadline">Key Specs</p>
+					<p class="bold">Price:</p> 
+					<p>About $1000</p>
 					<p class="bold">Resolution:</p> 
 					<p>1920 x 1080</p>
 					<p class="bold">Contrast:</p>
@@ -180,7 +182,7 @@
 			</div>
 			<div class="ui-block-b">
 				<a data-role="button" data-inline="true" id="amazonButton"> Buy On Amazon </a>
-				<p> Panasonic's PT-AE7000U is remarkable. The company collaborates with professional cinematographers to fine tune its home theater projectors.</p>
+				<p> Panasonic's new PT-AE7000U is remarkable. The company collaborates with professional cinematographers to fine tune its home theater projectors. If you happen to be a cinephile, choose this in a heartbeat...</p>
 			</div>
 		</div><!-- /grid-a -->
 
@@ -212,7 +214,7 @@
 
 
 
-<div id="search" data-role="page" data-add-back-btn="true" data-theme="a"> <!!!!!!!!!!!!!!!!!!!!!!!!!!!!SEARCH -->
+<div id="search" data-role="page" data-add-back-btn="true" data-theme="a"> <!!!!!!!!!!!!!!!!!!!!!SEARCH->
 	<div data-role="header">
 		<h1 id="logo">Wirecutter</h1>
 		<a href="#search" data-role="button" id="searchButton" class="ui-btn-right" data-iconpos="notext" data-icon="search">SEARCH</a>
@@ -221,19 +223,23 @@
 
 	<div data-role="content">
 		<input type="search" name="search" id="search-basic" value="Search..." />
+		<h5> RESULTS FOR "PROJECTOR" </h5>
+ 		<ul data-role="listview" data-theme="a">
+			<li><a href="#product">A GREAT PROJECTOR</a></li>
+			<li><a href="">A GOOD PROJECTOR</a></li>
+			<li><a href="">BEST PROJECTOR UNDER 1K</a></li>
+</ul>
 	</div>
 
-		<div data-role="footer" data-position="fixed" data-role="navbar">
-			<div data-role="navbar">
-				<ul>
-					<li><a href="#new">NEW</a></li>
-					<li><a href="#cat">CATEGORIES</a></li>
-					<li><a href="#pop">POPULAR</a></li>
-					<li><a href="#product">SHUFFLE</a></li>
-
-				</ul>
-			</div><!-- /navbar -->
-		</div>
+		<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="#home" data-icon="home">HOME</a></li>
+				<li><a href="#cat" data-icon="grid">CATEGORIES</a></li>
+				<li><a href="#new" data-icon="star">NEW</a></li>
+			</ul>
+		</div><!-- /navbar -->
+	</div>
 </div>
 
 
