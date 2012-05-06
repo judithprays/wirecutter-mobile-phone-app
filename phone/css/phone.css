@@ -82,7 +82,7 @@ h5{
     width: 115px;
     float: left;
     padding-left: 10px ;
-    margin: 15px 20px 15px 0px;
+    margin: 15px 0px 15px 0px;
 }
 
 #specs p{
@@ -115,10 +115,6 @@ p{
 
 .specHeadline{
 	font-size: 18px;
-}
-
-#productContainer{
-	margin-left: 25px;
 }
 
 #amazonButton{
@@ -228,6 +224,8 @@ p{
 #cablesButton{
 	background-image:url('http://thewirecutter.com/wp-content/uploads/cables.png');
 }	
+
+/****************PRODUCT DETAIL PAGE********************/
 
 
 .searchImageMargin{
