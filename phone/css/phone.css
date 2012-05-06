@@ -29,6 +29,16 @@ h2{
 
 }
 
+h5{
+	color: #503D15;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 10px;
+	margin: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
 
 #logo {
 	background-image:url('http://thewirecutter.com/wp-content/themes/thewirecutter2/img/logo.png');
@@ -40,10 +50,6 @@ h2{
 	width: 137px;
 }
 
-.homeButton{
-	text-align: center;
-}
-
 #new .ui-grid img {
 	width: 100%;
 	max-width: 400px;
@@ -51,7 +57,7 @@ h2{
 
 #new .ui-grid-a img {
 	width: 100%;
-	max-width: 200px;
+	max-width: 170px;
 }
 
 .imageShadow{
