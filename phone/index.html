@@ -69,27 +69,47 @@
 		<h1 id="logo">Wirecutter</h1>
 		<a href="#search" data-role="button" id="searchButton" class="ui-btn-right" data-iconpos="notext" data-icon="search">SEARCH</a>
 	</div>
+	<style type="text/css" media="screen">
+		.grid-product {
+			position: relative;
+			text-decoration: none;
+		}
 
+		.grid-product div.title {
+			background-color: rgba(0, 0, 0, 0.6);
+			bottom: 0;
+			color: #fff;
+			font-size: 16px;
+			padding: 10px;
+			position: absolute;
+			width: 100%;
+		}
+	</style>
 	<div data-role="content">
 		<div class="ui-grid">
 			<div class="ui-block">
-				<a href="#product"><img class="imageShadow"src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" /></a>
-				<h5>A GREAT PROJECTOR</h5>
-
+				<a class="grid-product" href="#product">
+					<div class="title">A GREAT PROJECTOR</div>
+					<img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="" />
+				</a>
 			</div>
 		</div><!-- /grid-a -->
 		<div class="ui-grid-a">
 			<div class="ui-block-a">
-				<a href=""><img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/VANITY500-478x500.jpg" alt="headphones" /> </a>
-				<h5>OVER-EAR HEADPHONES I'D GET</h5>
+				<a href=""  class="grid-product">
+					<img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/VANITY500-478x500.jpg" alt="headphones" />
+					<div class="title">OVER-EAR HEADPHONES I'D GET</div>
+				</a>
 			</div>
-			<div class="ui-block-b"><a href=""><img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/supersonic02-590x295.jpg" alt="camera" /> </a>
-			<h5>BEST USB DRIVE</h5>
-
-
-			<a href=""><img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/goprohero2-590x298.jpg" alt="camera" /> </a>
-			<h5>BEST SPORTS CAMERA</h5>
-
+			<div class="ui-block-b">
+				<a href="" class="grid-product">
+					<img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/supersonic02-590x295.jpg" alt="camera" />
+					<div class="title">USB DRIVE</div>
+				</a>
+				<a href="" class="grid-product">
+					<img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/goprohero2-590x298.jpg" alt="camera" /> 
+					<div class="title">BEST SPORTS CAMERA</div>
+				</a>
 			</div>
 
 		</div><!-- /grid-a -->
