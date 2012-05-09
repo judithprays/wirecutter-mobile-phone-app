@@ -135,12 +135,10 @@ p{
 
 
 .categoryButton{
-	background-repeat: no-repeat; 
-	background-position: 10% 50%; 
+	background-image:url('../images/sprite.png') no-repeat;
 }
 
 #categoryButtons{
-	padding: 25px;
 	text-align: center;
 }
 
@@ -150,79 +148,61 @@ p{
 }
 
 #homeButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/53-house.png');
-}
+  background-position: -10px -100px;
+ }
 
 #tvsButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/tvs.png');
 }
 
 #mobileExtrasButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/ipod.png');
 }
 
 #storageButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/storage.png');
 }
 
 #bodiesButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/112-group.png');
 }	
 
 #camerasButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/cameras.png');
 }	
 
 #laptopsButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/laptops.png');
 }	
 
 #headphonesButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/headphones.png');
 }	
 
 #smartphonesButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/smartphones.png');
 }	
 
 #theaterAudioButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/297-speaker.png');
 }	
 
 #theaterExtrasButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/blu-ray-player.png');
 }	
 
 #projectorsButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/107-widescreen.png');
 }
 
 #homeMusicButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/wireless-music.png');
 }	
 
 #computerETCButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/desktops.png');
 }	
 
 #networkingButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/networking.png');
 }	
 
 #printersButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/185-printer.png');
 }	
 
 #tabletsButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/tablets.png');
 }	
 
 #carStuffButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/16-car.png');
 }	
 
 #cablesButton{
-	background-image:url('http://thewirecutter.com/wp-content/uploads/cables.png');
 }	
 
 /****************PRODUCT DETAIL PAGE********************/
