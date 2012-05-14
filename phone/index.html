@@ -28,8 +28,14 @@
 	
 	<div data-role="content">
 		<h1> A LIST OF GREAT TECHNOLOGY </h1>
-		<a href="#product"><img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" class="widePic imageShadow"/> </a>
-		<h5> FEATURED PRODUCT: A GREAT PROJECTOR</h5>
+		<div class="ui-grid">
+			<div class="ui-block">
+				<a class="grid-product widePic" href="#product">
+					<div class="title">A GREAT PROJECTOR</div>
+					<img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="" />
+				</a>
+			</div>
+		</div><!-- /grid-a -->
 
 		<div data-role="collapsible" id="about">
 			<h5> ABOUT WIRECUTTER </h5>
@@ -76,45 +82,60 @@
 		}
 
 		.grid-product div.title {
-			background-color: rgba(0, 0, 0, 0.6);
+			background-color: rgba(255,250,250, 0.73);
+			font-family: Cantarell, sans-serif;
 			bottom: 0;
-			color: #fff;
-			font-size: 16px;
-			padding: 10px;
+			margin-bottom: 4px;
+			color: #6D8AA4;
+			text-shadow: 1px 1px 1px #6D8AA4;
+			font-weight: normal;
+			font-size: 18px;
+			padding: 5px;
 			position: absolute;
-			width: 100%;
+			width: 90%;
+			text-align: center;
+			border-radius: 5px;
 		}
+
+		.widePic div.title{
+			width: 96%;
+			margin-bottom: 8px;
+		}
+
 	</style>
 	<div data-role="content">
 		<div class="ui-grid">
 			<div class="ui-block">
-				<a class="grid-product" href="#product">
+				<a class="grid-product widePic" href="#product">
 					<div class="title">A GREAT PROJECTOR</div>
-					<img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="" />
+					<img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="" />
 				</a>
 			</div>
 		</div><!-- /grid-a -->
 		<div class="ui-grid-a">
 			<div class="ui-block-a">
-				<a href=""  class="grid-product">
+				<a href=""  class="grid-product" href="#product">
 					<img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/VANITY500-478x500.jpg" alt="headphones" />
 					<div class="title">OVER-EAR HEADPHONES I'D GET</div>
 				</a>
 			</div>
 
 			<div class="ui-block-b">
-				<a href="" class="grid-product">
+				<a href="" class="grid-product" href="#product">
 					<img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/supersonic02-590x295.jpg" alt="camera" />
 					<div class="title">USB DRIVE</div>
 				</a>
-				<a href="" class="grid-product">
-					<img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/goprohero2-590x298.jpg" alt="camera" /> 
-					<div class="title">BEST SPORTS CAMERA</div>
+
+			</div>
+			<div class="ui-block-b">
+				<a href="" class="grid-product" href="#product">
+					<img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/goprohero2-590x298.jpg" />
+					<div class="title">SPORTS CAMERA</div>
 				</a>
+
 			</div>
 
 		</div><!-- /grid-a -->
-
 		<!-- <ul id="productList">
 			<li><a href="#product"><img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" class="widePic"/> </a></li>
 			<li><a href="#music"><img src="http://thewirecutter.com/wp-content/uploads/jamboxhandred-435x500.jpg" alt="music" /> </a></li>
@@ -141,24 +162,24 @@
 
 	<div data-role="content">
 <div id="categoryButtons"> 
-		<a href="#home" id="homeButton" class="categoryButton" data-role="button"  data-inline="true">Home</a> 
-		<a href="#tvs" id="tvsButton"  class="categoryButton" data-role="button"  data-inline="true">TVs</a> 
-		<a href="#mobileExtras" data-role="button" id="mobileExtrasButton"  class="categoryButton" data-inline="true">Extras</a>
-		<a href="#storage" data-role="button" id="storageButton"  class="categoryButton" data-inline="true">Storage</a>
-		<a href="#bodies" data-role="button" id="bodiesButton"  class="categoryButton" data-inline="true">Bodies</a>		
-		<a href="#cameras" data-role="button" id="camerasButton"  class="categoryButton" data-inline="true">Cameras</a>
-		<a href="#laptops" data-role="button" id="laptopsButton"  class="categoryButton" data-inline="true">Laptops</a>
-		<a href="#headphones" data-role="button" id="headphonesButton"  class="categoryButton" data-inline="true">Headphones</a>
-		<a href="#smartphones" data-role="button" id="smartphonesButton"  class="categoryButton" data-inline="true">Smartphones</a>
-		<a href="#theaterExtras" data-role="button" id="theaterExtrasButton"  class="categoryButton" data-inline="true">Theater</a>
-		<a href="#projectors" data-role="button" id="projectorsButton"  class="categoryButton" data-inline="true">Projectors</a>
-		<a href="#homeMusic" data-role="button" id="homeMusicButton"  class="categoryButton" data-inline="true">Home Music</a>
-		<a href="#computerETC" data-role="button" id="computerETCButton"  class="categoryButton" data-inline="true">Computers</a>
-		<a href="#networking" data-role="button" id="networkingButton"  class="categoryButton" data-inline="true">Networking</a>
-		<a href="#printers" data-role="button" id="printersButton"  class="categoryButton" data-inline="true">Printers</a>
-		<a href="#tablets" data-role="button" id="tabletsButton"  class="categoryButton" data-inline="true">Tablets</a>
-		<a href="#carStuff" data-role="button" id="carStuffButton"  class="categoryButton" data-inline="true">Car Stuff</a>
-		<a href="#cables" data-role="button" id="cablesButton"  class="categoryButton" data-inline="true">Cables</a>
+		<a href="#new" id="homeButton" class="categoryButton" data-role="button"  data-inline="true">Home</a> 
+		<a href="#new" id="tvsButton"  class="categoryButton" data-role="button"  data-inline="true">TVs</a> 
+		<a href="#new" data-role="button" id="storageButton"  class="categoryButton" data-inline="true">Storage</a>
+		<a href="#new" data-role="button" id="bodiesButton"  class="categoryButton" data-inline="true">Bodies</a>		
+		<a href="#new" data-role="button" id="camerasButton"  class="categoryButton" data-inline="true">Cameras</a>
+		<a href="#new" data-role="button" id="laptopsButton"  class="categoryButton" data-inline="true">Laptops</a>
+		<a href="#new" data-role="button" id="headphonesButton"  class="categoryButton" data-inline="true">Headphones</a>
+		<a href="#new" data-role="button" id="smartphonesButton"  class="categoryButton" data-inline="true">Phones</a>
+		<a href="#new" data-role="button" id="theaterExtrasButton"  class="categoryButton" data-inline="true">Theater</a>
+		<a href="#new" data-role="button" id="projectorsButton"  class="categoryButton" data-inline="true">Projectors</a>
+		<a href="#new" data-role="button" id="homeMusicButton"  class="categoryButton" data-inline="true">Home Music</a>
+		<a href="#new" data-role="button" id="computerETCButton"  class="categoryButton" data-inline="true">Computers</a>
+		<a href="#new" data-role="button" id="networkingButton"  class="categoryButton" data-inline="true">Networking</a>
+		<a href="#new" data-role="button" id="printersButton"  class="categoryButton" data-inline="true">Printers</a>
+		<a href="#new" data-role="button" id="tabletsButton"  class="categoryButton" data-inline="true">Tablets</a>
+		<a href="#new" data-role="button" id="carStuffButton"  class="categoryButton" data-inline="true">Car Stuff</a>
+		<a href="#new" data-role="button" id="cablesButton"  class="categoryButton" data-inline="true">Cables</a>
+		<a href="#new" data-role="button" id="mobileExtrasButton"  class="categoryButton" data-inline="true">Extras</a>
 </div>
 	</div> <!-- /content -->
 
