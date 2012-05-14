@@ -55,9 +55,10 @@ h5{
 }
 
 #new .ui-grid-a img {
-	width: 100%;
-	max-width: 176px;
+	width: 98%;
+	max-width: 160px;
 }
+
 
 .imageShadow{
 	border-radius: 5px 5px 5px 5px;
@@ -134,20 +135,24 @@ p{
 			color: #6D8AA4;
 			text-shadow: 1px 1px 1px #6D8AA4;
 			font-weight: normal;
-			font-size: 18px;
-			padding: 5px;
+			font-size: 20px;
+			padding-top: 20px;
+			padding-bottom: 20px;
 			position: absolute;
 			width: 90%;
 			text-align: center;
 			border-radius: 5px;
 }
 
-.widePic div.title{
-	width: 97%;
-	margin-bottom: 8px;
+#categoryButtons .ui-btn-inner {
+	padding: 0; 
+	text-overflow: none; 
 }
 
-#home .widePic div.title{
+
+.widePic div.title{
+	width: 98%;
+	margin-bottom: 8px;
 }
 
 #projectorImg{
@@ -166,14 +171,13 @@ p{
 	background-repeat: no-repeat; 
 	background-position: 50% 28%; 
 	padding-top: 33px;
-	width: 140px;
+	width: 120px;
 	text-transform: uppercase;
 	font-size: 12px;
 
 }
 
 #categoryButtons{
-	padding: 25px;
 	text-align: center;
 }
 
