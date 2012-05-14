@@ -395,7 +395,7 @@
 	border: 1px solid  		#cccccc  /*{c-bup-border}*/;
 	background:  			#eeeeee  /*{c-bup-background-color}*/;
 	font-weight: bold;
-	color:  					#2F3E46  /*{c-bup-color}*/;
+	color:  					#6D8AA4  /*{c-bup-color}*/;
 	text-shadow:  0  /*{c-bup-shadow-x}*/  1px  /*{c-bup-shadow-y}*/  0  /*{c-bup-shadow-radius}*/  #ffffff  /*{c-bup-shadow-color}*/;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(  #ffffff  /*{c-bup-background-start}*/), to(  #f1f1f1  /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient(  #ffffff  /*{c-bup-background-start}*/,  #f1f1f1  /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
@@ -443,7 +443,7 @@
 .ui-btn-up-c,
 .ui-btn-hover-c,
 .ui-btn-down-c {
-	 font-family: Helvetica, Arial, sans-serif  /*{global-font-family}*/;
+	 font-family: Cantarell, sans-serif  /*{global-font-family}*/;
 	text-decoration: none;
 }
 
@@ -486,7 +486,6 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-btn-inner {
-	border-top: 1px solid 	#fff;
 	border-color: 			rgba(255,255,255,.3);
 }
 
