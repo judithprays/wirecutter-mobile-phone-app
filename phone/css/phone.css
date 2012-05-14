@@ -75,16 +75,6 @@ h5{
 
 /****************PRODUCT DETAIL PAGE********************/
 
-#specs{
-	background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: 0 0 5px #CCCCCC;
-    width: 115px;
-    float: left;
-    padding-left: 10px ;
-    margin: 15px 0px 15px 0px;
-}
-
 #specs p{
 	line-height: 0px;
 }
@@ -100,11 +90,10 @@ h4{
 }
 
 p{
-	width: 92%;
 	font: sans-serif;
 	font-size: 14px;
 	padding: 1px;
-		color: #503D15;
+	color: #503D15;
 
 
 }
@@ -118,21 +107,26 @@ p{
 }
 
 #amazonButton{
-	float: left;
-	margin: 20px 15px 10px 0px;
 	background:  #BC9D54;
     color: white;
     font-size: 14px;
     text-shadow: none;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
+.uppercase{
+	 text-transform: uppercase;
+}
 
 .grid-product {
 	position: relative;
 	text-decoration: none;
 }
 
-		.grid-product div.title {
+.grid-product div.title {
 			background-color: rgba(255,250,250, 0.73);
 			font-family: Cantarell, sans-serif;
 			bottom: 0;
@@ -146,12 +140,24 @@ p{
 			width: 90%;
 			text-align: center;
 			border-radius: 5px;
-		}
+}
 
-		.widePic div.title{
-			width: 96%;
-			margin-bottom: 8px;
-		}
+.widePic div.title{
+	width: 97%;
+	margin-bottom: 8px;
+}
+
+#home .widePic div.title{
+}
+
+#projectorImg{
+	width: 100%;
+}
+
+#productContainer img{
+	width: 100%;
+}
+
 
 /****************CATEGORY BUTTON STYLING********************/
 

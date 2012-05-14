@@ -23,7 +23,6 @@
 	<div data-role="header">
 		<h1 id="logo">Wirecutter</h1>
 		<a href="#search" data-role="button" id="searchButton" class="ui-btn-right" data-iconpos="notext" data-icon="search">SEARCH</a>
-
 	</div>
 	
 	<div data-role="content">
@@ -32,7 +31,7 @@
 			<div class="ui-block">
 				<a class="grid-product widePic" href="#product">
 					<div class="title">A GREAT PROJECTOR</div>
-					<img class="imageShadow" src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="" />
+					<img class="imageShadow" id="projectorImg" src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="" />
 				</a>
 			</div>
 		</div><!-- /grid-a -->
@@ -75,34 +74,8 @@
 		<h1 id="logo">Wirecutter</h1>
 		<a href="#search" data-role="button" id="searchButton" class="ui-btn-right" data-iconpos="notext" data-icon="search">SEARCH</a>
 	</div>
-	<style type="text/css" media="screen">
-		.grid-product {
-			position: relative;
-			text-decoration: none;
-		}
+		
 
-		.grid-product div.title {
-			background-color: rgba(255,250,250, 0.73);
-			font-family: Cantarell, sans-serif;
-			bottom: 0;
-			margin-bottom: 4px;
-			color: #6D8AA4;
-			text-shadow: 1px 1px 1px #6D8AA4;
-			font-weight: normal;
-			font-size: 18px;
-			padding: 5px;
-			position: absolute;
-			width: 90%;
-			text-align: center;
-			border-radius: 5px;
-		}
-
-		.widePic div.title{
-			width: 96%;
-			margin-bottom: 8px;
-		}
-
-	</style>
 	<div data-role="content">
 		<div class="ui-grid">
 			<div class="ui-block">
@@ -207,18 +180,28 @@
 
 	<div data-role="content">
 
-
-
-
 		<h1> A GREAT PROJECTOR </h1>
 		<h2> Panasonic PT-AE7000U </h2>
 		<div id="productContainer">
-			<a href="#product"><img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" class="widePic imageShadow"/> </a>
+			<img src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg" alt="projector" class="widePic imageShadow"/>
 
-			<div class="ui-grid-a">
-			<div class="ui-block-a">
-				<div id="specs">
-					<p class="bold specHeadline">Key Specs</p>
+			<a data-role="button" id="amazonButton"> Buy On Amazon - $1000</a>
+
+			<p> Panasonic's new PT-AE7000U is remarkable. The company collaborates with professional cinematographers to fine tune its home theater projectors. If you happen to be a cinephile, choose this in a heartbeat...</p>
+
+			<div data-role="collapsible" id="description">
+				<h5 class="uppercase">  Read More </h5>
+				<p>Since its release in October, the PT-AE7000U has garnered rave reviews for its outstanding picture quality, including excellent black levels and color performance. In fact, Projector Central says the 2D performance alone rivals or beats projectors that are triple the price. Art Feierman at Projector Reviews also notes that the majority of the AE7000U's competition–the Sony VPL-HW30ES, the Epson Home Cinema 5010, the Optoma HD8300, Sharp XV-Z17000–are mostly a full price step up from the Panasonic, and that none of them come close to hitting the same performance/price sweet spot.</p>
+
+				<p>While not cheap (it's selling for around $3,000 right now), this projector is still competitively priced considering the features you get. These include 3 HDMI 1.4a inputs, power zoom and focus, lots of manual lens shift, tons of picture tweaking tools, and a 240Hz image in 3D mode for eliminating crosstalk. At 2,000 lumens, the AE7000U is also close to 25 percent brighter than most similarly-priced 1080p 3D home theater projectors. That makes a huge difference with 3D movies as glasses significantly dim the picture. (Just remember, as with any other projector, ambient light can, and will, ruin an otherwise great picture.) The projector will even let you adjust the depth of the 3D image and is capable of converting 2D content to 3D in real time, although in my experience, this is never really that impressive.</p>
+
+				<p>Of course, the selection of quality 3D movies is still extremely limited, so the fact that 2D performance alone rivals projectors that cost twice as much is huge plus for this projector. If you want just a higher end 2D projector though, you can also go with the Panasonic AE4000U, which is a little over $2000. Like the 7000, it has plenty of calibration options and a fantastic picture. Admittedly, the AE7000U is still a relatively new projector so we'll continue to look at its competition and monitor reviews as they come in.</p>
+
+			</div>
+			
+			<div data-role="collapsible">
+				<h5 class="uppercase">  Key Specs </h5>
+					<div id="specs">
 					<p class="bold">Price:</p> 
 					<p>About $1000</p>
 					<p class="bold">Resolution:</p> 
@@ -232,26 +215,14 @@
 					<p>vertical (manual)</p> 
 				</div>
 			</div>
-			<div class="ui-block-b">
-				<a data-role="button" data-inline="true" id="amazonButton"> Buy On Amazon </a>
-				<p> Panasonic's new PT-AE7000U is remarkable. The company collaborates with professional cinematographers to fine tune its home theater projectors. If you happen to be a cinephile, choose this in a heartbeat...</p>
+			
 			</div>
-		</div><!-- /grid-a -->
-
+				<div data-role="collapsible">
+				<h5 class="uppercase">  Photos </h5>
 				
-
-
-			<div data-role="collapsible" id="description">
-				<h5>  Read More </h5>
-				<p>Since its release in October, the PT-AE7000U has garnered rave reviews for its outstanding picture quality, including excellent black levels and color performance. In fact, Projector Central says the 2D performance alone rivals or beats projectors that are triple the price. Art Feierman at Projector Reviews also notes that the majority of the AE7000U's competition–the Sony VPL-HW30ES, the Epson Home Cinema 5010, the Optoma HD8300, Sharp XV-Z17000–are mostly a full price step up from the Panasonic, and that none of them come close to hitting the same performance/price sweet spot.</p>
-
-				<p>While not cheap (it's selling for around $3,000 right now), this projector is still competitively priced considering the features you get. These include 3 HDMI 1.4a inputs, power zoom and focus, lots of manual lens shift, tons of picture tweaking tools, and a 240Hz image in 3D mode for eliminating crosstalk. At 2,000 lumens, the AE7000U is also close to 25 percent brighter than most similarly-priced 1080p 3D home theater projectors. That makes a huge difference with 3D movies as glasses significantly dim the picture. (Just remember, as with any other projector, ambient light can, and will, ruin an otherwise great picture.) The projector will even let you adjust the depth of the 3D image and is capable of converting 2D content to 3D in real time, although in my experience, this is never really that impressive.</p>
-
-				<p>Of course, the selection of quality 3D movies is still extremely limited, so the fact that 2D performance alone rivals projectors that cost twice as much is huge plus for this projector. If you want just a higher end 2D projector though, you can also go with the Panasonic AE4000U, which is a little over $2000. Like the 7000, it has plenty of calibration options and a fantastic picture. Admittedly, the AE7000U is still a relatively new projector so we'll continue to look at its competition and monitor reviews as they come in.</p>
-
 			</div>
+			
 		</div>
-	</div>
 
 	<div data-role="footer" data-position="fixed">
 		<div data-role="navbar" >
@@ -280,14 +251,14 @@
 
 <ul class="ui-listview" data-split-theme="a" data-split-icon="arrow-l" data-role="listview">
 <li data-iconshadow="true" data-wrapperels="div" data-iconpos="right" data-theme="a">
-	<a class="ui-link-inherit" href="index.html">
+	<a class="ui-link-inherit" href="product.html">
 			<img id="projector1"class="ui-li-thumb imageShadow searchImageMargin" src="http://thewirecutter.com/wp-content/uploads/ae7k_front-590x272.jpg">
 			<h3 class="ui-li-heading">A GREAT PROJECTOR</h3>
 			<p class="ui-li-desc">Epson PowerLite Home Cinema 5010</p>
 	</a>
 </li>
 <li data-iconshadow="true" data-wrapperels="div" data-iconpos="right" data-theme="a">
-	<a class="ui-link-inherit" href="index.html">
+	<a class="ui-link-inherit" href="product.html">
 			<img id="projector2" class="ui-li-thumb imageShadow searchImageMargin" src="http://thewirecutter.com/wp-content/uploads/optoma01-200x150.jpg">
 			<h3 class="ui-li-heading">BEST PROJECTOR UNDER 1K</h3>
 			<p class="ui-li-desc">Optoma HD20</p>
@@ -295,7 +266,7 @@
 </li>
 
 <li data-iconshadow="true" data-wrapperels="div" data-iconpos="right" data-theme="a">
-	<a class="ui-link-inherit" href="index.html">
+	<a class="ui-link-inherit" href="product.html">
 			<img id="projector3" class="ui-li-thumb imageShadow searchImageMargin" src="http://thewirecutter.com/wp-content/uploads/hd3301-200x107.jpg">
 			<h3 class="ui-li-heading">A GOOD PROJECTOR</h3>
 			<p class="ui-li-desc">Optoma HD33</p>
